@@ -2,7 +2,7 @@ name: Run Python Script Every Minute
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # This runs the workflow every minute
+    - cron: '*/2 * * * *'  # This runs the workflow every minute
 
 jobs:
   run-python-script:
